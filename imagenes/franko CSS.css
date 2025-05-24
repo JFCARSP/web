@@ -1,0 +1,147 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+
+.hero {
+  position: relative;
+  background-image: url('IMAGENES/JF.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero .overlay .logo-hero {
+    max-width: 300px;
+    height: auto;     
+    margin-bottom: 20px; 
+    align-self: center; */
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.autos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.auto {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.auto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.auto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.auto h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.auto p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.ver-detalle {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.ver-detalle:hover {
+  background-color: #e64a19;
+}
+
+
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+footer a.contactar {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+footer a.contactar:hover {
+  background-color: #e64a19;
+}
+
+
+@media (max-width: 768px) {
+  .autos {
+    justify-content: center;
+  }
+
+  .auto {
+    width: 100%;
+    max-width: 350px;
+  }
+
+ .footer-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-info .columna-final {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+}
+.footer-bottom .politica-privacidad-texto {
+    color: #d62828;
+
+
+
+
+

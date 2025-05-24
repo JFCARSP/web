@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detalle del Toyota Corolla 2020</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e3f2fd;
+      color: black;
+    }
+
+    header {
+      background-color: #20232a;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .image-box {
+      flex: 1 1 45%;
+    }
+
+    .image-box img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .details {
+      flex: 1 1 50%;
+    }
+
+    .details h2 {
+      margin-top: 0;
+      font-size: 28px;
+      color: #1a1a1a;
+    }
+
+    .details p {
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    form {
+      margin-top: 30px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    form h3 {
+      margin-top: 0;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #FF0000;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #CC0000;
+    }
+
+   footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1c1c1c;
+      color: white;
+      margin-top: 40px;
+    }
+     .politica-privacidad-texto {
+      color: red; 
+      text-decoration: none; 
+    }
+    .politica-privacidad-texto:hover {
+      text-decoration: underline; 
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toyota Corolla 2020</h1>
+    <p>Detalles completos y solicitud de información</p>
+  </header>
+
+  <div class="container">
+    <div class="image-box">
+      <img src="https://grupopana.com.pe/hs-fs/hubfs/CorollaHybrid-rojo_0x-01.jpg?width=600" alt="Toyota Corolla 2020">
+    </div>
+
+    <div class="details">
+      <h2>Precio: $12,000 USD</h2>
+      <p><strong>Motor:</strong> 1.8L Híbrido</p>
+      <p><strong>Transmisión:</strong> Automática CVT</p>
+      <p><strong>Combustible:</strong> Híbrido (Gasolina + Eléctrico)</p>
+      <p><strong>Kilometraje:</strong> 20,000 km</p>
+      <p><strong>Color:</strong> Rojo Metálico</p>
+      <p><strong>Descripción:</strong> Un sedán elegante, eficiente y confiable. Ideal para la ciudad y viajes largos con bajo consumo.</p>
+
+      <form action="mailto:ventasdeJFautos@gmail.com" method="post" enctype="text/plain">
+        <h3>Solicita más información</h3>
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <input type="tel" name="telefono" placeholder="Tu número de teléfono">
+        <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje o consulta..."></textarea>
+        <button type="submit">Enviar consulta</button>
+      </form>
+    </div>
+  </div>
+
+ <footer>
+   <p>&copy; 2024 Grupo JFCARS MAX. Todos los derechos reservados.</p>
+   <p><a href="#" class="politica-privacidad-texto">Nuestra política de privacidad</font></a></p>
+</footer>
+
+</body>
+</html>
